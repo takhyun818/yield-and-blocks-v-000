@@ -10,7 +10,7 @@ if block_given?
   array
 end
 else
-  puts "Hey@ No block was given!"
+  puts "Hey! No block was given!"
   puts ""
 hello_t(["Tim", "Tom", "Jim"]) do |name|
   if name.start_with?("T")
